@@ -14,6 +14,16 @@ Allow: /zipf/
 
 # Group 2
 User-agent: *
+Disallow: /assets/
+Disallow: /pgp.txt
+Disallow: /tyler/
+Disallow: /werner/
 Allow: /
+Allow: /utils/
+Allow: /tone/
+Allow: /dino/
+Allow: /pages/
+Allow: /french/
+Allow: /zipf/
 
 Sitemap: http://kazmal.tech/sitemaps/sitemap.xml
