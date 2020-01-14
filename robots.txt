@@ -2,28 +2,34 @@
 User-agent: Googlebot
 Disallow: /assets/
 Disallow: /pgp.txt
-Disallow: /tyler/
 Disallow: /werner/
+Disallow: /macshirt/
+Disallow: /cultures
+Disallow: /blender
 Allow: /
 Allow: /utils/
+Allow: /cgmsp
 Allow: /tone/
 Allow: /dino/
 Allow: /pages/
 Allow: /french/
-Allow: /zipf/
+Disallow: /zipf/
 
 # Group 2
 User-agent: *
 Disallow: /assets/
 Disallow: /pgp.txt
-Disallow: /tyler/
 Disallow: /werner/
+Disallow: /macshirt/
+Disallow: /cultures
+Disallow: /blender
 Allow: /
 Allow: /utils/
+Allow: /cgmsp
 Allow: /tone/
 Allow: /dino/
 Allow: /pages/
 Allow: /french/
-Allow: /zipf/
+Disallow: /zipf/
 
 Sitemap: http://kazmal.tech/sitemaps/sitemap.xml
