@@ -8,6 +8,7 @@ Disallow: /cultures
 Disallow: /blender
 Allow: /
 Allow: /utils/
+Allow: /wikipedia
 Allow: /cgmsp
 Allow: /tone/
 Allow: /dino/
@@ -25,6 +26,7 @@ Disallow: /cultures
 Disallow: /blender
 Allow: /
 Allow: /utils/
+Allow: /wikipedia
 Allow: /cgmsp
 Allow: /tone/
 Allow: /dino/
