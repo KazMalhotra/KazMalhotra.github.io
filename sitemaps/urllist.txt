@@ -8,3 +8,5 @@ https://kazmal.tech/utils/
 https://kazmal.tech/blog/posts/1.html
 https://kazmal.tech/utils/calc.html
 https://kazmal.tech/tone/
+https://kazmal.tech/qb
+https://kazmal.tech/wikipedia
