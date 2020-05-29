@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+
+ <head>
+    <meta charset="UTF-8">
+<script data-ad-client="ca-pub-9423541216923947" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <meta name="description" content="Spin the genre wheel on kazmal.tech">
+    <!--        Bootstrap CSS: -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Cabin|Exo+2|Hind|Montserrat|Muli|Niramit|Noto+Sans|Noto+Sans+TC|Nunito|Open+Sans|Questrial|Quicksand|Ubuntu|Varela+Round|Work+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7f645871e.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+
+  <link rel="icon" href="../assets/img/logo_circle.png">
+    <title>Spin the genre wheel</title>
+</head>
+
+
+<body style="background-color:#333;">
+  <style>
+
+
+  body{
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Muli', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Niramit', sans-serif;
+    font-family: 'Questrial', sans-serif;
+
+    text-align: center;
+
+
+   }
+   .button {
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 80px;
+   margin: 4px 2px;
+   transition-duration: 0.3s;
+   width: 600px;
+   height: 600px;
+ }
+
+ .button:hover {
+  background-color: white; /* Green */
+  color: #4CAF50;
+}
+
+ .button3 {border-radius: 50%;}
+
+ </style>
+
+
+
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><h3>Spin the genre wheel</h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://kazmalhotra.github.io">Home</a>
+                </li>
+                <!--class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+		<a class="nav-link" href="#about">About</a-->
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div style="color: #fff">
+<div style="padding-left:40px">
+
+<br><br><br>
+<button class="button button3" onclick="spin()">Spin</button>
+
+<script>
+function spin() {
+  var genres = ['Spin again',
+   'Diverse perspectives',
+   'Diverse perspectives',
+   'Diverse perspectives',
+   'Diverse perspectives',
+   'Diverse perspectives',
+   'Autobiography/Biography/Memoir',
+   'SciFi',
+   'Mystery',
+   'Realistic Fiction',
+   'Fantasy',
+   'Historical Fiction']
+
+  var choice = genres[Math.floor(Math.random()*genres.length)];
+
+  document.getElementById("out").innerHTML = choice;
+
+
+}
+
+</script>
+<br><br>
+<h1>You spun:</h1>
+<h1 id='out'></h1>
+
+
+</div>
+</div>
+
+</body>
+</html>
